@@ -1,0 +1,23 @@
+// Программа для вывода таблицы умножения
+namespace lera
+{
+    class Program
+    {
+        static void Main()
+        {
+            double n = 1200, procent = 0;
+         
+                // Выводим одну строку из 10 
+                for (int j = 1000; j <= n; j++)
+                {
+                procent = j * 0.2;
+                Console.Write("{0}, procent \t\t\t\t\t\t");
+                }
+                // Переход на новую строку.
+                Console.WriteLine();
+          
+            // Delay.
+            Console.ReadKey();
+        }
+    }
+}
